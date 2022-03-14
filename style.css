@@ -20,14 +20,18 @@ a {
 /***************Barre de navigation**********/
 header img {
   min-width: 100px;
-  width: 10%;
-  margin-left: 20px;
+  width: 8%;
+  margin-left: 50px;
 }
 
 header {
   display: flex;
   justify-content: space-between; 
-  margin-top: 50px;
+  margin-top: 25px;
+}
+
+header nav{
+  margin-top: 10px;
 }
 header ul {
   display: flex; 
@@ -41,15 +45,19 @@ header ul li {
 }
 
 header .border-blue{
-  border-top: solid 2px #0065fc;
-  padding-top: 30px;
+  padding: 32px;
+}
+
+header .border-blue:hover{
+  border-top: solid 3px #0065fc;
   color: #0065fc;
+  padding: 32px;
 }
 
 /**********Section 1 Barre de recherche**********/
 
 .section1{
-  margin-left: 20px;
+  margin-left: 35px;
 }
 
 .section1 .map {
@@ -64,7 +72,7 @@ header .border-blue{
   display: flex;
   justify-content: center;
   align-items: center;
-
+  font-size: 18px
 }
 
 .section1 input {
@@ -72,6 +80,7 @@ header .border-blue{
   width: 230px;
   border: #f2f2f2 1px solid;
   font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .section1 input::placeholder{
@@ -97,25 +106,28 @@ header .border-blue{
 }
 
 h1{
-    margin: 20px 0;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
 .section1 p{
-    margin-bottom: 15px; 
+  margin-bottom: 20px; 
+  color: rgb(59, 59, 59);
 }
 
 /**************Section 2 Filtres******************/
 .section2{
   display: flex;
-  margin-top:  30px;
+  margin: 20px 0 0 6px;
 }
 
 .filters-icon{
   display: flex;
 }
 
-h3{
-  margin: 10px 40px 0 30px;
+.section2 h3{
+  margin: 15px 40px 0 30px;
+  font-size: 1.2rem;
 }
 
 .section2 .filters-icon{
@@ -127,7 +139,7 @@ h3{
   align-items: center;
   height: 50px;
   padding-right: 30px;
-  border: #F2F2F2 2px solid;
+  border: #dfdede 2px solid;
   border-radius: 30px;
   margin-right: 40px;
   cursor: pointer;
@@ -153,11 +165,10 @@ h3{
 
 .section2 p{
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   margin-left: 10px;
-  margin-bottom: 10px;
 }
 
 .section2 p:hover{
@@ -165,6 +176,9 @@ h3{
 }
 
 /************Section 3 Info***********/
+.section3{
+  margin-left: 5px;
+}
 .info{
   display: flex;
   align-items: center;
@@ -172,31 +186,37 @@ h3{
 }
 
 .section3 h2{
-  margin-left: 20px;
-  font-size: 1.2rem;
+  margin-left: 10px;
+  font-size: 1.1rem;
   font-weight: 300;
+  color: rgb(59, 59, 59);
 }
 
 .section3 .circle-info{
   border: #F2F2F2 solid 2px;
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   color: #0065fc;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 30px;
 }
+
+.section3 i{
+  font-size: 13px;
+  
+}
 /*************Main section 4 Hebergements**********/
 Main{
   display: flex;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 30px;
 }
 
 .section4 h2{
-  margin: 40px 0 40px 40px;
+  margin: 40px 0 40px 20px;
   font-weight: 600;
 }
 .bloc1{
@@ -228,7 +248,7 @@ Main{
   background: white;
   margin-bottom: 40px;
   border-radius: 20px 20px 20px 20px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.062);
   transition: 0.8s;
 }
 
@@ -254,7 +274,7 @@ Main{
   color: #0065fc;
 }
 .section4 .colorgrey{
-  color: #F2F2F2;
+  color: #d6d1d1;
 }
 
 .section4 span{
@@ -277,6 +297,10 @@ Main{
   margin: 40px 0;
 }
 
+.fa-chart-line{
+  font-size: 25px;
+}
+
 .section5 .border-popular{
   border: 2px solid white;
   border-radius: 20px;
@@ -286,7 +310,7 @@ Main{
   margin-bottom: 20px;
   display: flex;
   margin-left: 40px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.062);
   transition: 0.8s;
 }
 .section5 .border-popular:hover{
@@ -312,7 +336,7 @@ Main{
   color: #0065fc;
 }
 .section5 .colorgrey{
-  color: #F2F2F2;
+  color: #d6d1d1;
 }
 
 /**********Section 6 Activités à Marseille*********/
@@ -373,7 +397,7 @@ Main{
 
 .border-activity{
  border-radius: 15px;
- box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
+ box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.062);
  margin-bottom: 70px;
  padding-bottom: 20px;
  transition: 0.8s;
@@ -414,6 +438,7 @@ footer h4{
 }
 footer a{
   line-height: 30px;
+  color: rgb(59, 59, 59);
 }
 
 /**************media queries***************/
