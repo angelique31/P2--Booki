@@ -1,0 +1,76 @@
+.section6 h2{
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  .bloc-card{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  
+  .section6 .left-card{
+    display: flex;
+  }
+  
+  .card-column{
+    flex-direction: column;
+    padding-left: 30px;
+  }
+  
+  .image-activity1,
+  .image-activity4{
+    object-fit: cover;
+    width: 260px;
+    height: 510px;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .image-activity2{
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .image-activity3{
+    object-fit: cover;
+    width: 300px;
+    height: 180px;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .image-activity5{
+    object-fit: cover;
+    width: 300px;
+    height: 180px;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .image-activity6{
+    object-fit: cover;
+    width: 300px;
+    height: 195px;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .border-activity{
+   border-radius: 15px;
+   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.062);
+   margin-bottom: 70px;
+   padding-bottom: 20px;
+   transition: 0.8s;
+  }
+  .border-activity:hover{
+    transform: scale(1.07);
+  }
+  .right-card{
+    display: flex;
+    padding-left: 30px;
+  }
+  
+  .text-activity{
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  

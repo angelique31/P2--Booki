@@ -1,0 +1,23 @@
+.bloc-footer{
+  width: 100%;
+  background: #F2F2F2;
+  height: 300px;
+  display: flex;
+  padding-top: 40px;
+  margin-left: 0;
+}
+
+.section-footer{
+  flex: 1;
+  margin-left: 40px;
+}
+
+footer h4{
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 50px;
+}
+footer a{
+  line-height: 30px;
+  color: rgb(59, 59, 59);
+}

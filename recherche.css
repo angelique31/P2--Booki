@@ -1,0 +1,60 @@
+.section1{
+    margin-left: 35px;
+  }
+  
+  .section1 .map {
+    display: flex;
+  }
+  
+  .section1 .fa-map-marker-alt {
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px
+  }
+  
+  .section1 input {
+    height: 50px;
+    width: 230px;
+    border: #f2f2f2 1px solid;
+    font-weight: 600;
+    font-size: 19px;
+  }
+  
+  .section1 input::placeholder{
+    color: black;
+    padding-left: 20px; 
+  }
+  
+  .section1 .search {
+    border-radius: 0 10px 10px 0;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    background-color: #0065fc;
+    cursor: pointer;
+  }
+  
+  .fa-search{
+    color: transparent;
+  }
+  
+  h1{
+      margin-top: 25px;
+      margin-bottom: 10px;
+  }
+  
+  .section1 p{
+    margin-bottom: 20px; 
+    color: rgb(59, 59, 59);
+  }
+  
+   

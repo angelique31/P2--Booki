@@ -1,0 +1,35 @@
+header img {
+    min-width: 100px;
+    width: 8%;
+    margin-left: 50px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 25px;
+  }
+  
+  header nav{
+    margin-top: 10px;
+  }
+  header ul {
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  header ul li {
+    margin-right: 60px;
+  }
+  
+  header .border-blue{
+    padding: 32px;
+  }
+  
+  header .border-blue:hover{
+    border-top: solid 3px #0065fc;
+    color: #0065fc;
+    padding: 32px;
+  }
