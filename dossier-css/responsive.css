@@ -172,7 +172,9 @@
     .section4 .border-popular{
       width: 100%;
     }
-
+    .section4 .bloc2 {
+      justify-content: start;
+  }
     /******** section 5 populaires*********/
     .section5{
       flex: none;
@@ -192,7 +194,7 @@
       margin-left: 0;
     }
     .section5 img{
-      height: 140px;
+      height: 146px;
       width: 250px;
     }
     .section5 .text-picture{

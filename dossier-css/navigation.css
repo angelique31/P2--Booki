@@ -11,25 +11,23 @@ header img {
   }
   
   header nav{
-    margin-top: 10px;
+    margin-top: 15px;
   }
   header ul {
     display: flex; 
-    justify-content: flex-end;
-    align-items: center;
     flex-wrap: wrap;
   }
   
   header ul li {
-    margin-right: 60px;
+    margin-right: 40px;
   }
   
   header .border-blue{
-    padding: 32px;
+    padding: 36px;
   }
   
   header .border-blue:hover{
     border-top: solid 3px #0065fc;
     color: #0065fc;
-    padding: 32px;
+    padding: 36px;
   }
