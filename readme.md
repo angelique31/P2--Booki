@@ -34,3 +34,5 @@ Aucun framework CSS ne doit être utilisé.
 ● Le code doit être valide aux __validateurs W3C__ HTML et CSS.   
 ● La maquette doit être compatible avec les dernières versions de
 __Google Chrome et de Mozilla Firefox.__   
+
+Venez visiter mon site https://angelique31.github.io/projet-2-booki/
