@@ -2,7 +2,7 @@
     margin-top: 40px;
     margin-left: 30px;
   }
-  .bloc-card{
+ .section6 .bloc-card{
     display: flex;
     margin-top: 20px;
     margin-left: 30px;
@@ -12,7 +12,7 @@
     display: flex;
   }
   
-  .card-column{
+  .section6 .card-column{
     flex-direction: column;
     padding-left: 30px;
   }
@@ -49,7 +49,7 @@
   .image-activity6{
     object-fit: cover;
     width: 280px;
-    height: 140px;
+    height: 150px;
     border-radius: 15px 15px 0 0;
   }
   
@@ -63,12 +63,12 @@
   .border-activity:hover{
     transform: scale(1.07);
   }
-  .right-card{
+  .section6 .right-card{
     display: flex;
     padding-left: 30px;
   }
   
-  .text-activity{
+  .section6 .text-activity{
     font-weight: 600;
     margin-left: 20px;
     margin-top: 20px;

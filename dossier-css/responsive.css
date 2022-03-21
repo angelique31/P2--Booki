@@ -35,6 +35,7 @@
     }
     .section5 .text-picture{
       font-size: 13px;
+      line-height: 18px;
     }
     .section5 .star{
       margin-top: 10px;
@@ -42,10 +43,14 @@
     .section5 h2{
       font-size: 19px;
     }
-    
+    .section5 p{
+      font-size: 12px;
+      padding-bottom: 40px;
+    }
     /******* section 6 activité******/
     .image-activity1,
     .image-activity4{
+      display: block;
       width: 260px;
     }
     .image-activity2,
