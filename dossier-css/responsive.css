@@ -1,62 +1,64 @@
 @media screen and (min-width:992px) and (max-width: 1200px){
     
-  /***** section 2 filtres******/
-    .section2 .filters-icon{
+  /***** filters******/
+    .filters-section .filters-icon{
       margin-top: 10px;
       margin-left: 20px;
     }
-    .section2 h3{
+    .filters-section h3{
       margin: 25px 5px 0 30px;
       font-size: 19px;
     }
 
-    /****** section 4 hebergements******/
-    .section4 h2{
+    /****** accomodation******/
+    .accommodation-section h2{
       font-size: 19px;
     }
     .bloc1{
       flex-wrap: nowrap;
     }
-    .section4 .border-picture{
+
+    .accommodation-section .border-picture{
       width: 170px;
       height: 180px;
     }
-    .section4 .text-picture{
+    .accommodation-section .text-picture{
       font-size: 13px;
     }
-    .section4 img{
+    .accommodation-section img{
       height: 90px;
     }
 
-    /****** section 5 populaires*******/
-    .section5 .border-popular{
+    /****** popular*******/
+    .popular-section .border-popular{
       margin-left: 10px;
       width: 250px;
     }
-    .section5 .text-picture{
+    .popular-section .text-picture{
       font-size: 13px;
       line-height: 18px;
     }
-    .section5 .star{
+    .popular-section .star{
       margin-top: 10px;
     }
-    .section5 h2{
+    .popular-section h2{
       font-size: 19px;
     }
-    .section5 p{
+    .popular-section p{
       font-size: 12px;
       padding-bottom: 40px;
     }
     /******* section 6 activité******/
-    .image-activity1,
-    .image-activity4{
+    
+    .picture-activity1,
+    .picture-activity4{
       display: block;
       width: 260px;
     }
-    .image-activity2,
-    .image-activity3,
-    .image-activity5,
-    .image-activity6{
+    .picture-activity2,
+    .picture-activity3,
+    .picture-activity5,
+    .picture-activity6{
       width: 230px;
     }
     
@@ -72,7 +74,7 @@
       box-sizing: content-box;
     }
 
-    /* ************barre de navigation ***************/
+    /* ************navigation bar ***************/
     header {
       display: block;
       border-bottom: 3px solid #f2f2f2;
@@ -92,16 +94,16 @@
       padding-bottom: 20px;
       border-top: none;
     }
-    /************ section 1 recherche***************/
-    .section1 input{
+    /************ search **************/
+    .search-bar input{
       width: 220px;
       font-size: 1rem;
     }
-    .section1 .search{
+    .search-bar .search{
       width: 50px;
       display: none;
     }
-    .section1 .fa-search{
+    .search-bar .fa-search{
       display: flex;
       justify-content: center;
       align-items: center;
@@ -111,31 +113,31 @@
       cursor: pointer;
       width: 50px;
     }
-     .section1 h1{
+     .search-bar h1{
       font-size: 19px;
     }
 
-    /********* section 2 filtres*************/
-    .section2 .filters-icon{
+    /********* filters*************/
+    .filters-section .filters-icon{
       margin-left: 20px;
     }
-    .section2 p{
+    .filters-section p{
       font-size: 16px;
     }
-    .section2{
+    .filters-section{
       flex-direction: column;
     }
     .filters-column{
       flex-direction: column;
       align-items: flex-start;
     }
-    .section2 .filters{
+    .filters-section .filters{
       margin-top: 10px;
       padding-right: 10px;
     }
 
-    /********* section 3 info***********/
-    .section3 h2{
+    /*********info***********/
+    .info-section h2{
       font-size: 16px;
       margin-left: 10px;
     }
@@ -143,20 +145,18 @@
     /******* main **********/
     main{
       margin-left: 0;
-    }
-    #hebergements{
       flex-direction: column-reverse;
     }
-
-    /********** section 4 hebergements***********/
-    .section4 .bloc1{
+    
+    /********** accommodation-section***********/
+    .accommodation-section .bloc1{
       flex-direction: column;
       width: 100%;
     }
-    .section4 span{
+    .accommodation-section span{
       margin-left: 10px;
     }
-    .section4{
+    .accommodation-section{
       flex: none;
       width: 90%;
       margin-right: 0%;
@@ -164,24 +164,24 @@
       height: auto;
       background-color: white
     }
-    .section4 h2{
+    .accommodation-section h2{
       margin: 40px 0;
     }
-    .section4 .border-picture{
+    .accommodation-section .border-picture{
       width: 95%;
     }
-    .section4 img{
+    .accommodation-section img{
       object-fit: cover;
       height: 180px;
     }
-    .section4 .border-popular{
+    .accommodation-section .border-popular{
       width: 100%;
     }
-    .section4 .bloc2 {
+    .accommodation-section .bloc2 {
       justify-content: start;
   }
     /******** section 5 populaires*********/
-    .section5{
+    .popular-section{
       flex: none;
       width: 90%;
       margin-left: 0;
@@ -189,53 +189,53 @@
       border-radius: 0;
       height: 600px;
     }
-    .section5 .title-graph{
+    .popular-section .title-graph{
       margin-top: 0;
       display: flex;
       justify-content: space-between;
     }
-    .section5 .border-popular{
+    .popular-section .border-popular{
       width: auto;
       margin-left: 0;
     }
-    .section5 img{
+    .popular-section img{
       height: 146px;
       width: 250px;
     }
-    .section5 .text-picture{
+    .popular-section .text-picture{
       margin-left: 30px;
     }
-    .section5 h4{
+    .popular-section h4{
       font-size: 19px;
     }
-    .section5 p{
+    .popular-section p{
       font-size: 16px;
     }
-    .section5 .star{
+    .popular-section .star{
       font-size: 16px;
     }
 
-    /*******section 6 activités*******/
-    .section6 h2{
+    /*******activity-section*******/
+    .activity-section h2{
       margin-left: 30px;
     }
-    .section6 .bloc-card{
+    .activity-section .bloc-card{
       flex-direction: column;
     }
-    .section6 .bloc-card .left-card{
+    .activity-section .bloc-card .left-card{
       flex-direction: column;
       width: 90%;
     }
-    .section6 img{
+    .activity-section img{
       height: 210px;
       width: 100%;
     }
-    .section6 .bloc-card .right-card{
+    .activity-section .bloc-card .right-card{
       flex-direction: column;
       width: 90%;
       padding-left: 0;
     }
-    .section6 .card-column{
+    .activity-section .card-column{
       padding-left: 0;
     }
     
@@ -249,25 +249,25 @@
   
   @media screen and (max-width: 599px){
 
-    /* section 5 populaires */
-    .section5 h4{
+    /* popular */
+    .popular-section h4{
       font-size: 16px;
     }
-    .section5 p{
+    .popular-section p{
       font-size: 14px;
     }
-    .section5 .star{
+    .popular-section .star{
       font-size: 14px;
       margin-top: 25px;
     }
-    .section5 img{
+    .popular-section img{
       width: 160px;
     }
   }
   
   @media screen and (max-width: 441px){
 
-    /***** navigation *****/
+    /***** navigation bar*****/
     header nav{
       flex-basis: 100%;
     }
@@ -278,42 +278,42 @@
       margin-right: 10px;
     }
 
-    /***** section 1 barre de recherche*****/
-    .section1 h1{
+    /***** search bar*****/
+    .search-bar h1{
       width: 270px;
     }
-    .section1 p{
+    .search-bar p{
       font-size: 14.4px;
     }
-    /*****section 2 filtres******/
-    .section2 h3{
+    /*****filters******/
+    .filters-section h3{
       font-size: 20px;
       margin-bottom: 20px;
     }
-    /**** section 3 info******/
-    .section3 .circle-info{
+    /****info******/
+    .info-section .circle-info{
       margin-left: 20px;
     }
 
-    /***** section 4 hebergements*****/
-    .section4 .border-picture{
+    /***** accommodation-section*****/
+    .accommodation-section .border-picture{
       height: 210px;
     }
-    .section4 img{
+    .accommodation-section img{
       height: 120px;
       width: 100%;
     }
 
-    /******section 5 populaires*****/
-    .section5 img{
+    /******popular-section*****/
+    .popular-section img{
       width: 130px;
     }
 
     /******section 6 activités******/
-    .section6 .border-activity{
+    .activity-section .border-activity{
       height: 155px;
     }
-    .section6 img{
+    .activity-section img{
       height: 120px;
     }
 

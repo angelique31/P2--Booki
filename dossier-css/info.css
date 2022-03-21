@@ -1,4 +1,4 @@
-.section3{
+  .info-section{
     margin-left: 5px;
   }
   .info{
@@ -7,14 +7,14 @@
     margin-top: 30px;
   }
   
-  .section3 h2{
+  .info-section h2{
     margin-left: 10px;
     font-size: 17px;
     font-weight: 300;
     color: rgb(59, 59, 59);
   }
   
-  .section3 .circle-info{
+  .info-section .circle-info{
     border: #F2F2F2 solid 2px;
     border-radius: 50%;
     height: 25px;
@@ -26,7 +26,7 @@
     margin-left: 30px;
   }
   
-  .section3 i{
+  .info-section i{
     font-size: 13px;
     
   }

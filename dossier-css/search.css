@@ -1,12 +1,12 @@
-.section1{
+  .search-bar{
     margin-left: 35px;
   }
   
-  .section1 .map {
+  .search-bar .map {
     display: flex;
   }
   
-  .section1 .fa-map-marker-alt {
+  .search-bar .fa-map-marker-alt {
     background-color: #F2F2F2;
     border-radius: 10px 0 0 10px;
     height: 50px;
@@ -17,7 +17,7 @@
     font-size: 18px
   }
   
-  .section1 input {
+  .search-bar input {
     height: 50px;
     width: 230px;
     border: #f2f2f2 1px solid;
@@ -25,12 +25,12 @@
     font-size: 19px;
   }
   
-  .section1 input::placeholder{
+  .search-bar input::placeholder{
     color: black;
     padding-left: 20px; 
   }
   
-  .section1 .search {
+  .search-bar .search {
     border-radius: 0 10px 10px 0;
     height: 50px;
     width: 120px;
@@ -52,7 +52,7 @@
       margin-bottom: 10px;
   }
   
-  .section1 p{
+  .search-bar p{
     margin-bottom: 20px; 
     color: rgb(78, 77, 77);
   }

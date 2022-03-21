@@ -7,17 +7,15 @@
     <meta name="robots" content="index,follow"/>
     <title>Booki, trouvez l'hébergement pour des vacances de rêve-projet 2 par openclassroom </title>
     <meta name="description" content="Booki par openclassroom, trouvez un hébergement pour des vacances de rêve.">
-    <!-- fichiers css -->
+    <!-- files css -->
     <link rel="stylesheet" href="./dossier-css/style.css">
-    <link rel="stylesheet" href="./dossier-css/import.css">
-    <link rel="stylesheet" href="./dossier-css/balises-de-base.css">
+    <link rel="stylesheet" href="./dossier-css/global.css">
     <link rel="stylesheet" href="./dossier-css/navigation.css">
-    <link rel="stylesheet" href="./dossier-css/recherche.css">
-    <link rel="stylesheet" href="./dossier-css/filtres.css">
+    <link rel="stylesheet" href="./dossier-css/search.css">
+    <link rel="stylesheet" href="./dossier-css/filters.css">
     <link rel="stylesheet" href="./dossier-css/info.css">
-    <link rel="stylesheet" href="./dossier-css/hebergements.css">
-    <link rel="stylesheet" href="./dossier-css/populaires.css">
-    <link rel="stylesheet" href="./dossier-css/activite.css">
+    <link rel="stylesheet" href="./dossier-css/accommodations.css">
+    <link rel="stylesheet" href="./dossier-css/activity.css">
     <link rel="stylesheet" href="./dossier-css/footer.css">
     <link rel="stylesheet" href="./dossier-css/responsive.css">
     
@@ -26,33 +24,33 @@
 
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Navigation bar -->
     <header>
         <img src="./image/logo/Booki.png" alt="logo booki">
         <nav>
             <ul>
-                <li><a class="border-blue" href="#hebergements_à_Marseille">Hébergements</a></li>
-                <li><a class="border-blue" href="#activités_à_Marseille">Activités</a></li>
+                <li><a class="border-blue" href="#accommodations_from_Marseille">Hébergements</a></li>
+                <li><a class="border-blue" href="#activity_from_Marseille">Activités</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Barre de recherche -->
-    <Section class="section1">
+    <!-- Search bar -->
+    <Section class="search-bar">
         <h1>Trouvez votre hébergement  pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
         <div class="map">
             <i class="fa fa-map-marker-alt"> </i>
             <form method="post" action="traitement.php">
-                <input class="ville" type="search" placeholder="Marseille, France" />
-          </form>	
-          <p class="search">Rechercher</p>
-          <i class="fas fa-search"></i>
+                <input class="city" type="search" placeholder="Marseille, France" />
+            </form>	
+            <p class="search">Rechercher</p>
+            <i class="fas fa-search"></i>
         </div>
     </Section>
 
-    <!-- Filtres -->
-    <section class="section2">
+    <!-- Filters -->
+    <section class="filters-section">
         <h3>Filtres</h3>
         <div class="filters-icon">
             <div class="filters">
@@ -85,16 +83,16 @@
     </section>
 
     <!-- Info -->
-    <section class="section3">
+    <section class="info-section">
         <div class="info">
             <div class="circle-info"><i class="fas fa-info"></i></div>
             <h2> Plus de 500 logements sont disponibles dans cette ville</h2>
         </div>
     </section>
 
-    <!-- main hebergements + populaire, section4 et section5-->
-    <main id="hebergements">
-    <section class="section4" id="hebergements_à_Marseille">
+    <!-- main accommodation + popular-->
+    <main>
+    <section class="accommodation-section" id="accommodation_from_Marseille">
         <h2>Hébergements à Marseille</h2>
         <div class="bloc1">
             <div class="border-picture">  
@@ -191,7 +189,8 @@
         </div>
             <span>Afficher plus</span>
     </section>
-    <section class="section5">
+
+    <section class="popular-section">
         <div class="title-graph">
             <h2>Les plus populaires</h2>
             <i class="fas fa-chart-line"></i>
@@ -241,26 +240,26 @@
     </section>
     </main>
 
-    <!-- Activités à Marseille -->
-    <section class="section6" id="activités_à_Marseille">
+    <!-- Activity from Marseille -->
+    <section class="activity-section" id="activity_from_Marseille">
         <h2>Activités à Marseille</h2>
         <div class="bloc-card">
             <div class="left-card">
                 <div class="border-activity">
-                    <a href="image/image_activité/photo10.jpg"><img class="image-activity1"  src="image/image_activité/photo10.jpg" alt="photo du vieux port" title="Cliquez pour agrandir"/></a>
+                    <a href="image/image_activité/photo10.jpg"><img class="picture-activity1"  src="image/image_activité/photo10.jpg" alt="photo du vieux port" title="Cliquez pour agrandir"/></a>
                     <div class="text-activity">
                         <p>Vieux Port</p>
                     </div>
                 </div>
                 <div class="card-column">
                     <div class="border-activity">
-                        <a href="image/image_activité/photo11.jpg"><img class="image-activity2"  src="image/image_activité/photo11.jpg" alt="photo du Fort de Pomègues" title="Cliquez pour agrandir"/></a>
+                        <a href="image/image_activité/photo11.jpg"><img class="picture-activity2"  src="image/image_activité/photo11.jpg" alt="photo du Fort de Pomègues" title="Cliquez pour agrandir"/></a>
                         <div class="text-activity">
                             <p>Fort de Pomègues</p>
                         </div>
                     </div>   
                     <div class="border-activity">
-                        <a href="image/image_activité/photo12.jpg"><img class="image-activity3"  src="image/image_activité/photo12.jpg" alt="photo des îles du Frioul" title="Cliquez pour agrandir"/></a>
+                        <a href="image/image_activité/photo12.jpg"><img class="picture-activity3"  src="image/image_activité/photo12.jpg" alt="photo des îles du Frioul" title="Cliquez pour agrandir"/></a>
                         <div class="text-activity">
                             <p>Iles du Frioul</p>
                         </div>
@@ -270,20 +269,20 @@
     
             <div class="right-card">
                 <div class="border-activity">
-                    <a href="image/image_activité/photo13.jpg"><img class="image-activity4"  src="image/image_activité/photo13.jpg" alt="photo du Parc National des Calanques" title="Cliquez pour agrandir"/></a>
+                    <a href="image/image_activité/photo13.jpg"><img class="picture-activity4"  src="image/image_activité/photo13.jpg" alt="photo du Parc National des Calanques" title="Cliquez pour agrandir"/></a>
                     <div class="text-activity">
                         <p>Parc National des Calanques</p>
                     </div>
                 </div>
                 <div class="card-column">
                     <div class="border-activity">
-                        <a href="image/image_activité/photo14.jpg"><img class="image-activity5"  src="image/image_activité/photo14.jpg" alt="photo de Notre-Dame-de-la-Garde" title="Cliquez pour agrandir"/></a>
+                        <a href="image/image_activité/photo14.jpg"><img class="picture-activity5"  src="image/image_activité/photo14.jpg" alt="photo de Notre-Dame-de-la-Garde" title="Cliquez pour agrandir"/></a>
                         <div class="text-activity">
                             <p>Notre-Dame-de-la-Garde</p>
                         </div>
                     </div>
                     <div class="border-activity">
-                       <a href="image/image_activité/photo15.jpg"><img class="image-activity6"  src="image/image_activité/photo15.jpg" alt="photo du parc Longchamps" title="Cliquez pour agrandir"/></a>
+                       <a href="image/image_activité/photo15.jpg"><img class="picture-activity6"  src="image/image_activité/photo15.jpg" alt="photo du parc Longchamps" title="Cliquez pour agrandir"/></a>
                         <div class="text-activity">
                             <p>Parc Longchamps</p>
                         </div>

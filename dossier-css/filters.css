@@ -1,22 +1,18 @@
-  .section2{
+  .filters-section{
     display: flex;
     margin: 20px 0 0 6px;
   }
   
-  .filters-icon{
-    display: flex;
-  }
-  
-  .section2 h3{
+  .filters-section h3{
     margin: 15px 40px 0 30px;
     font-size: 19px;
   }
   
-  .section2 .filters-icon{
+  .filters-section .filters-icon{
     display: flex;
   }
   
-  .section2 .filters{
+  .filters-section .filters{
     display: flex;
     align-items: center;
     height: 50px;
@@ -28,11 +24,11 @@
     transition: 0.8s;
   }
   
-  .section2 .filters:hover{
+  .filters-section .filters:hover{
     transform: scale(1.05);
   }
   
-  .section2 .icon{
+  .filters-section .icon{
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -45,7 +41,7 @@
     margin-left: -2px; 
   }
   
-  .section2 p{
+  .filters-section p{
     font-weight: 600;
     font-size: 19px;
     display: flex;
@@ -53,7 +49,7 @@
     margin-left: 10px;
   }
   
-  .section2 p:hover{
+  .filters-section p:hover{
     color: #0065fc;
   }
   

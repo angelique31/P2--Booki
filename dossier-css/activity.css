@@ -1,52 +1,51 @@
-.section6 h2{
+.activity-section h2{
     margin-top: 40px;
     margin-left: 30px;
   }
- .section6 .bloc-card{
+ .activity-section .bloc-card{
     display: flex;
     margin-top: 20px;
     margin-left: 30px;
   }
   
-  .section6 .left-card{
+  .activity-section .left-card{
     display: flex;
   }
   
-  .section6 .card-column{
-    flex-direction: column;
+  .activity-section .card-column{
     padding-left: 30px;
   }
   
-  .image-activity1,
-  .image-activity4{
+  .picture-activity1,
+  .picture-activity4{
     object-fit: cover;
-    width: 282px;
+    width: 100%;
     height: 410px;
     border-radius: 15px 15px 0 0;
   }
   
-  .image-activity2{
+  .picture-activity2{
     object-fit: cover;
     width: 280px;
     height: 150px;
     border-radius: 15px 15px 0 0;
   }
   
-  .image-activity3{
+  .picture-activity3{
     object-fit: cover;
     width: 280px;
     height: 130px;
     border-radius: 15px 15px 0 0;
   }
   
-  .image-activity5{
+  .picture-activity5{
     object-fit: cover;
     width: 280px;
     height: 130px;
     border-radius: 15px 15px 0 0;
   }
   
-  .image-activity6{
+  .picture-activity6{
     object-fit: cover;
     width: 280px;
     height: 150px;
@@ -63,12 +62,12 @@
   .border-activity:hover{
     transform: scale(1.07);
   }
-  .section6 .right-card{
+  .activity-section .right-card{
     display: flex;
     padding-left: 30px;
   }
   
-  .section6 .text-activity{
+  .activity-section .text-activity{
     font-weight: 600;
     margin-left: 20px;
     margin-top: 20px;
