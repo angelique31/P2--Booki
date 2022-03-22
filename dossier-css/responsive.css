@@ -99,7 +99,7 @@
       color: white;
       cursor: pointer;
       width: 50px;
-      margin-left: -2px;
+      margin-left: -10px;
     }
      .search-bar h1{
       font-size: 19px;
@@ -165,10 +165,11 @@
     .accommodation-section .border-popular{
       width: 100%;
     }
+    
     .accommodation-section .bloc2 {
       justify-content: start;
   }
-    /******** section 5 populaires*********/
+    /********popular section*********/
     .popular-section{
       flex: none;
       width: 90%;
@@ -187,8 +188,9 @@
       margin-left: 0;
     }
     .popular-section img{
-      height: 146px;
+      height: 140px;
       width: 250px;
+      padding: 1%;
     }
     .popular-section .text-picture{
       margin-left: 30px;
@@ -300,6 +302,8 @@
     /******popular-section*****/
     .popular-section img{
       width: 130px;
+      height: 140px;
+      padding: 2%
     }
 
     /******section 6 activités******/
