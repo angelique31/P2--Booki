@@ -12,7 +12,6 @@ Main{
   }
   .accommodation-section h2{
     margin: 40px 0 40px 20px;
-    font-weight: 600;
   }
   .bloc1{
     display: flex;
@@ -37,6 +36,7 @@ Main{
     border-radius: 20px 20px 20px 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.062);
     transition: 0.8s;
+    padding-bottom: 10px;
   }
   
   .accommodation-section .border-picture:hover{
@@ -48,9 +48,6 @@ Main{
     line-height: 25px;
   }
   
-  .accommodation-section h4{
-    font-weight: 900;
-  }
   .bloc2{
     display: flex;
     justify-content: space-around;
@@ -109,13 +106,12 @@ Main{
     height: 140px;
     width: 110px;
     border-radius: 20px 0 0 20px;
+    padding: 3%;
   }
   .popular-section .text-picture{
     margin-top: 10px;
   }
-  .popular-section h4{
-    font-weight: 900;
-  }
+  
   .popular-section .star{
     margin-top: 30px;
   }

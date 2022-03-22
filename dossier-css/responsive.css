@@ -1,4 +1,4 @@
-@media screen and (min-width:992px) and (max-width: 1200px){
+ @media screen and (min-width:992px) and (max-width: 1200px){ 
     
   /***** filters******/
     .filters-section .filters-icon{
@@ -47,19 +47,6 @@
     .popular-section p{
       font-size: 12px;
       padding-bottom: 40px;
-    }
-    /******* section 6 activité******/
-    
-    .picture-activity1,
-    .picture-activity4{
-      display: block;
-      width: 260px;
-    }
-    .picture-activity2,
-    .picture-activity3,
-    .picture-activity5,
-    .picture-activity6{
-      width: 230px;
     }
     
     /****** footer ******/
@@ -112,6 +99,7 @@
       color: white;
       cursor: pointer;
       width: 50px;
+      margin-left: -2px;
     }
      .search-bar h1{
       font-size: 19px;
@@ -216,13 +204,15 @@
     }
 
     /*******activity-section*******/
-    .activity-section h2{
-      margin-left: 30px;
+    .activity-section{
+      height: 1900px;
+      margin-left: 55px;
     }
+    
     .activity-section .bloc-card{
       flex-direction: column;
     }
-    .activity-section .bloc-card .left-card{
+    .activity-section .bloc-card{
       flex-direction: column;
       width: 90%;
     }
@@ -230,7 +220,7 @@
       height: 210px;
       width: 100%;
     }
-    .activity-section .bloc-card .right-card{
+    .activity-section .bloc-card{
       flex-direction: column;
       width: 90%;
       padding-left: 0;
@@ -262,6 +252,9 @@
     }
     .popular-section img{
       width: 160px;
+    }
+    .activity-section{
+      margin-left: 30px;
     }
   }
   
@@ -310,13 +303,16 @@
     }
 
     /******section 6 activités******/
+    .activity-section{
+      height: 1350px;
+    }
     .activity-section .border-activity{
       height: 155px;
     }
     .activity-section img{
       height: 120px;
     }
-
+    
     /****** footer***** */
     footer ul{
       margin-bottom: 10px;

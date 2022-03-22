@@ -1,75 +1,62 @@
+.activity-section{
+  margin-left: 30px;
+}
+
 .activity-section h2{
-    margin-top: 40px;
-    margin-left: 30px;
-  }
- .activity-section .bloc-card{
-    display: flex;
-    margin-top: 20px;
-    margin-left: 30px;
-  }
-  
-  .activity-section .left-card{
-    display: flex;
-  }
-  
-  .activity-section .card-column{
-    padding-left: 30px;
-  }
-  
-  .picture-activity1,
-  .picture-activity4{
-    object-fit: cover;
-    width: 100%;
-    height: 410px;
-    border-radius: 15px 15px 0 0;
-  }
-  
-  .picture-activity2{
-    object-fit: cover;
-    width: 280px;
-    height: 150px;
-    border-radius: 15px 15px 0 0;
-  }
-  
-  .picture-activity3{
-    object-fit: cover;
-    width: 280px;
-    height: 130px;
-    border-radius: 15px 15px 0 0;
-  }
-  
-  .picture-activity5{
-    object-fit: cover;
-    width: 280px;
-    height: 130px;
-    border-radius: 15px 15px 0 0;
-  }
-  
-  .picture-activity6{
-    object-fit: cover;
-    width: 280px;
-    height: 150px;
-    border-radius: 15px 15px 0 0;
-  }
-  
-  .border-activity{
-   border-radius: 15px;
-   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.062);
-   margin-bottom: 70px;
-   padding-bottom: 20px;
-   transition: 0.8s;
-  }
-  .border-activity:hover{
-    transform: scale(1.07);
-  }
-  .activity-section .right-card{
-    display: flex;
-    padding-left: 30px;
-  }
-  
-  .activity-section .text-activity{
-    font-weight: 600;
-    margin-left: 20px;
-    margin-top: 20px;
-  }
-  
+  margin: 40px 0 30px 0;   
+}
+
+.activity-section .bloc-card{
+  display: flex;
+  height: 600px;
+  gap: 2%;
+}
+
+.bloc-card img{
+  max-width: 100%;
+}
+
+.activity-section .card-column .border-activity {
+  margin-bottom: 50px;
+} 
+
+.activity-section img{
+  object-fit: cover;
+  width: 285px;
+  border-radius: 15px 15px 0 0;
+}
+
+.picture-activity1,
+.picture-activity4{
+  height: 480px;
+}
+.picture-activity2{
+  height: 225px;
+}
+.picture-activity3{
+  height: 155px;
+}
+.picture-activity5{
+  height: 200px;
+}
+.picture-activity6{
+  height: 180px;
+}
+
+.border-activity{
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.062);
+  max-height: 535px;
+  transition: 0.8s;
+  padding-bottom: 20px;
+} 
+
+.border-activity:hover{
+  transform: scale(1.03);
+}
+
+.activity-section .text-activity{
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 10px;
+}
