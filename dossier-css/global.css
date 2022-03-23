@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 
+/*
+  TODO:
+    utiliser les px pour les fonts est une mauvaise pratique, surtout pour l'affichage mobile    
+*/
+
 * {
   margin: 0;
   padding: 0;

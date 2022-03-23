@@ -1,4 +1,9 @@
- @media screen and (min-width:992px) and (max-width: 1200px){ 
+/*
+  TODO:
+    utiliser les px pour les fonts est une mauvaise pratique, surtout pour l'affichage mobile    
+*/
+
+@media screen and (min-width:992px) and (max-width: 1200px){ 
     
   /***** filters******/
     .filters-section .filters-icon{

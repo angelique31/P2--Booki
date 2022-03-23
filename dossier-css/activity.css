@@ -1,3 +1,12 @@
+/*
+  TODO:
+    La syntaxe de Marsilles
+    "Activités à Mars.." la taille au format mobile à check
+    Espace entre les cars 3 premières cards, puis les 3 suivantes au format mobile
+
+    Attention à la transition d'animation, quand on passe du mobile au desktop un peu vite. On remarque le changement de taille des images
+*/
+
 .activity-section{
   margin-left: 30px;
 }

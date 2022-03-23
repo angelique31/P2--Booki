@@ -1,3 +1,8 @@
+  /*
+  TODO:
+    utiliser les px pour les fonts est une mauvaise pratique, surtout pour l'affichage mobile    
+*/
+  
   .search-bar{
     margin-left: 35px;
   }

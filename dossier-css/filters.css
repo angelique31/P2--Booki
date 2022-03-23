@@ -1,3 +1,15 @@
+/*
+  TODO:
+    le cercle bleu des boutons est plus petit sur la maquette 
+    tailles du texte au format mobile à vérifier
+    
+*/
+
+/*
+  TODO:
+    utiliser les px pour les fonts est une mauvaise pratique, surtout pour l'affichage mobile    
+*/
+
   .filters-section{
     display: flex;
     margin: 20px 0 0 6px;

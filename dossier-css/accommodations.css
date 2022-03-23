@@ -1,3 +1,18 @@
+/*
+  TODO:
+    "Afficher plus" semble être un (futur) bouton, lui donner l'effet pointer au hover? 
+    cards popular, il y a plus d'espace entre les cards (haut / bas)
+    cards popular, check aussi pour l'espace entre les cards (haut / bas) au format mobile
+    check la taille du titre Hébergement au format mobile
+    cards hébergement, check aussi l'espace entre les cards (haut/bas) au format mobile
+    "Afficher plus", la taille au format mobile à check
+*/
+
+/*
+  TODO:
+    utiliser les px pour les fonts est une mauvaise pratique, surtout pour l'affichage mobile    
+*/
+
 Main{
     display: flex;
     margin-top: 30px;
