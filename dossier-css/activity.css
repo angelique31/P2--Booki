@@ -12,10 +12,6 @@
   gap: 2%;
 }
 
-.bloc-card img{
-  max-width: 100%;
-}
-
 .activity-section .card-column .border-activity {
   margin-bottom: 50px;
 } 
@@ -24,6 +20,7 @@
   object-fit: cover;
   width: 285px;
   border-radius: 15px 15px 0 0;
+  max-width: 100%;
 }
 
 .picture-activity1,
