@@ -300,6 +300,7 @@
     /***** accommodation-section*****/
     .accommodation-section .border-picture{
       height: 210px;
+      padding-bottom: 0;
     }
     .accommodation-section img{
       height: 120px;
