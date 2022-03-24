@@ -127,7 +127,7 @@
 
     /*********info***********/
     .info-section h2{
-      font-size: 100%;
+      font-size: 95%;
       margin-left: 10px;
     }
 
@@ -289,12 +289,12 @@
     }
     /*****filters******/
     .filters-section h3{
-      font-size: 125;
+      font-size: 125%;
       margin-bottom: 20px;
     }
     /****info******/
     .info-section .circle-info{
-      margin-left: 20px;
+      margin: 0 0 20px 20px;
     }
 
     /***** accommodation-section*****/
