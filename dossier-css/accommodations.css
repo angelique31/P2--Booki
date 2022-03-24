@@ -48,6 +48,9 @@ Main{
     line-height: 25px;
   }
   
+  .accommodation-section .star{
+    font-size: 90%;
+  }
   .bloc2{
     display: flex;
     justify-content: space-around;
@@ -64,6 +67,8 @@ Main{
   .accommodation-section span{
     margin-left: 40px;
     font-weight: 600;
+    cursor: pointer;
+    font-size: 113%;
   }
   
   /****** popular *******/
@@ -91,7 +96,7 @@ Main{
     background-color: white;
     height: 145px;
     width: 290px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     display: flex;
     margin-left: 40px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.062);
@@ -113,13 +118,13 @@ Main{
   }
   
   .popular-section .star{
-    margin-top: 30px;
+    margin-top: 25px;
   }
   .popular-section .colorblue{
     color: #0065fc;
-    font-size: 12px;
+    font-size: 80%;
   }
   .popular-section .colorgrey{
     color: #d6d1d1;
-    font-size: 12px;
+    font-size: 80%;
   }

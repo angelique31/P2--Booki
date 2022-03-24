@@ -9,7 +9,7 @@
   
   .info-section h2{
     margin-left: 10px;
-    font-size: 17px;
+    font-size: 106%;
     font-weight: 300;
     color: rgb(59, 59, 59);
   }
@@ -27,6 +27,6 @@
   }
   
   .info-section i{
-    font-size: 13px;
+    font-size: 81%;
     
   }

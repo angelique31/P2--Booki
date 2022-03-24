@@ -7,45 +7,46 @@
     }
     .filters-section h3{
       margin: 25px 5px 0 30px;
-      font-size: 19px;
+      font-size: 119%;
     }
 
     /****** accomodation******/
     .accommodation-section h2{
-      font-size: 19px;
+      font-size: 119%;
     }
     .bloc1{
       flex-wrap: nowrap;
     }
 
     .accommodation-section .border-picture{
-      width: 170px;
-      height: 180px;
+      width: 29%;
+      height: 210px;
     }
     .accommodation-section .text-picture{
-      font-size: 13px;
+      font-size: 81%;
     }
     .accommodation-section img{
-      height: 90px;
+      height: 120px;
     }
 
     /****** popular*******/
     .popular-section .border-popular{
       margin-left: 10px;
-      width: 250px;
+      width: 90%
     }
     .popular-section .text-picture{
-      font-size: 13px;
+      font-size: 81%;
       line-height: 18px;
+      margin-top: 15px;
     }
     .popular-section .star{
       margin-top: 10px;
     }
     .popular-section h2{
-      font-size: 19px;
+      font-size: 119%;
     }
     .popular-section p{
-      font-size: 12px;
+      font-size: 100%;
       padding-bottom: 40px;
     }
     
@@ -84,7 +85,7 @@
     /************ search **************/
     .search-bar input{
       width: 220px;
-      font-size: 1rem;
+      font-size: 100%;
     }
     .search-bar .search{
       width: 50px;
@@ -102,7 +103,7 @@
       margin-left: -10px;
     }
      .search-bar h1{
-      font-size: 19px;
+      font-size: 119%;
     }
 
     /********* filters*************/
@@ -110,7 +111,7 @@
       margin-left: 20px;
     }
     .filters-section p{
-      font-size: 16px;
+      font-size: 100%;
     }
     .filters-section{
       flex-direction: column;
@@ -126,7 +127,7 @@
 
     /*********info***********/
     .info-section h2{
-      font-size: 16px;
+      font-size: 100%;
       margin-left: 10px;
     }
 
@@ -153,10 +154,11 @@
       background-color: white
     }
     .accommodation-section h2{
-      margin: 40px 0;
+      margin: 25px 0;
     }
     .accommodation-section .border-picture{
       width: 95%;
+      margin-bottom: 20px;
     }
     .accommodation-section img{
       object-fit: cover;
@@ -176,7 +178,7 @@
       margin-left: 0;
       padding: 30px 5%;
       border-radius: 0;
-      height: 600px;
+      height: 560px;
     }
     .popular-section .title-graph{
       margin-top: 0;
@@ -186,6 +188,7 @@
     .popular-section .border-popular{
       width: auto;
       margin-left: 0;
+      margin-bottom: 15px;
     }
     .popular-section img{
       height: 140px;
@@ -196,13 +199,13 @@
       margin-left: 30px;
     }
     .popular-section h4{
-      font-size: 19px;
+      font-size: 119%;
     }
     .popular-section p{
-      font-size: 16px;
+      font-size: 100%;
     }
     .popular-section .star{
-      font-size: 16px;
+      font-size: 100%;
     }
 
     /*******activity-section*******/
@@ -213,6 +216,8 @@
     
     .activity-section .bloc-card{
       flex-direction: column;
+      width: 90%;
+      padding-left: 0;
     }
     .activity-section .bloc-card{
       flex-direction: column;
@@ -222,13 +227,15 @@
       height: 210px;
       width: 100%;
     }
-    .activity-section .bloc-card{
-      flex-direction: column;
-      width: 90%;
-      padding-left: 0;
+    .activity-section .border-activity{
+      margin-bottom: 20px;
+     
     }
     .activity-section .card-column{
       padding-left: 0;
+    }
+    .activity-section .card-column .border-activity{
+      margin-bottom: 25px;
     }
     
     /******* footer*****/
@@ -243,13 +250,13 @@
 
     /* popular */
     .popular-section h4{
-      font-size: 16px;
+      font-size: 100%;
     }
     .popular-section p{
-      font-size: 14px;
+      font-size: 87%;
     }
     .popular-section .star{
-      font-size: 14px;
+      font-size: 87%;
       margin-top: 25px;
     }
     .popular-section img{
@@ -282,7 +289,7 @@
     }
     /*****filters******/
     .filters-section h3{
-      font-size: 20px;
+      font-size: 125;
       margin-bottom: 20px;
     }
     /****info******/
@@ -308,7 +315,7 @@
 
     /******section 6 activités******/
     .activity-section{
-      height: 1350px;
+      height: 1300px;
     }
     .activity-section .border-activity{
       height: 155px;

@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px
+    font-size: 112%
   }
   
   .search-bar input {
@@ -22,7 +22,7 @@
     width: 230px;
     border: #f2f2f2 1px solid;
     font-weight: 600;
-    font-size: 19px;
+    font-size: 119%;
   }
   
   .search-bar input::placeholder{

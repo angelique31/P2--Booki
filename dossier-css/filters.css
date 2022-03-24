@@ -5,7 +5,7 @@
   
   .filters-section h3{
     margin: 15px 40px 0 30px;
-    font-size: 19px;
+    font-size: 119%;
   }
   
   .filters-section .filters-icon{
@@ -29,21 +29,21 @@
   }
   
   .filters-section .icon{
-    height: 55px;
-    width: 55px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     background-color: #DEEBFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 112%;
     color: #0065fc;
     margin-left: -4px; 
   }
   
   .filters-section p{
     font-weight: 600;
-    font-size: 19px;
+    font-size: 119%;
     display: flex;
     align-items: center;
     margin-left: 10px;
