@@ -270,9 +270,9 @@
   @media screen and (max-width: 441px){
 
     /***** navigation bar*****/
-    header nav{
+    /* header nav{
       flex-basis: 100%;
-    }
+    } */
     header ul{
       flex-wrap: nowrap;
     }

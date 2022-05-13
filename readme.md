@@ -36,3 +36,6 @@ Aucun framework CSS ne doit être utilisé.
 __Google Chrome et de Mozilla Firefox.__   
 
 Venez visiter mon site https://angelique31.github.io/projet-2-booki/
+
+Validation au W3C :  
+image.png
